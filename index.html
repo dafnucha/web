@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+  <div id="menu">
+    <TABLE border=0 width=100%> 
+        <TR>
+          <td width=60%> </td>
+          <TD><a href="#about">About Me</a></TD>
+          <TD><a href="#photos">My Photos</a></TD>
+          <TD><a href="#playlist">My Playlist</a></TD>
+          <TD><a href="#like">Like</a></TD>
+          <TD><a href="#qrcoder">QR code</a></TD>
+          <TD><a href="#spa">Q&A</a></TD>
+          <TD><a href="#contact">Contact Me</a></TD>
+        </TR>
+    </TABLE>
+  </div>
+
+  <section id="about" class="section">
+      <br />
+      <br />
+    <div class="title">
+        about me
+    </div>
+    <br />
+    <div class="text">  
+      hello my name is dafna cordoval. i was born in colombia, Barranquilla. 
+      my favorite color is blue, <div style="color:darkblue">this blue.</div>
+      i like to read and play video games but mostly i love to sleep. i have two dogs who are the best Nana and Milky.
+      my favorite game is the witcher 3 which i played like a million times.
+      i am in Ravenclaw the best house in Hogwarts. 
+      my favorite topic in this degree is ai. i think that my main diffuclty in this project will be the design because i find it diffuclt to get to the result that i like when i need to choose a combination of colors 
+    </div>
+    
+    <br />
+    <br />
+  </section>
+
+  <section id="photos" class="section">
+    <br />
+    <div class="title">
+        my photos
+    </div>
+    <div class="photos">
+        <img src="dafna and milky.jpg" width="300" height="400" >
+        <div class="desc">
+            <h3>me and Milky</h3>
+            <p>this photo is fliped </p>
+            i dont know why
+        </div>
+      </div>
+    <div class="photos">
+        <img src="little me.jpeg" width="225" height="400">
+        <div class="desc">
+          <h3>me when i was 5</h3>
+          <p>this photo was taken at a</p>
+          family meeting
+          </div>
+      </div>
+    <div class="photos">
+        <img src="nana.jpeg" width="225" height="400">
+        <div class="desc"> 
+          <h3>my dog Nana</h3>
+          <p>Nana was adopted at age 4</p>
+          <p> and she has been with us</p> 
+          for 12 years
+        </div>
+      </div>
+      <div class="photos">
+        <img src="milky.jpeg" width="225" height="400">
+        <div class="desc">
+            <h3>my dog Milky</h3>
+            <p>Milky was adopted at age 1.5</p>
+            <p> and he has been with us</p> 
+            for 1 year
+        </div>
+      </div>
+      <div class="photos">
+        <img src="dafna and nana.jpg" width="400" height="400">
+        <div class="desc">
+            <h3>me and Nana</h3>
+            <p>Taken on one of our </p>
+            morning walks
+        </div>
+      </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+  </section>
+
+  <section id="playlist" class="section">
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="title">
+        my playlist
+    </div>
+    <h2 style="text-align: center;">here is a playlist of my favorite band</h2>
+    <div class="play">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLljkQuJRNJ3u3XM9Fbam0OyYsYOBv_Dvl" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section id="like" class="section">
+    <div class="title">
+      give me a like
+    </div>
+    <br />
+    <br />
+    <br />
+  </section>
+
+  <section id="qrcoder" class="section">
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="title">
+        scan my code
+    </div>
+    <br />
+    <br />
+    <br />
+  </section>
+
+  <section id="spa" class="section">
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="title">
+      ans
+    </div>
+    <br />
+    <br />
+    <br />
+  </section>
+
+  <section id="contact" class="section">
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="title">
+      contact me
+    </div>
+    <br />
+    <br />
+    <br />
+  </section>
+
+  <script type="text/javascript">
+    $(function () {
+      $("#nav a").click(function (e) {
+        e.preventDefault();
+        $('html,body').scrollTo(this.hash, this.hash);
+      });
+    });
+  </script>
+  <script type="text/javascript">
+    $(document).scroll(function () {
+      $('#menu').toggle($(this).scrollTop() > 1000)
+    });​
+  </script>
+</body>
+
+</html>
